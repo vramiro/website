@@ -9,9 +9,8 @@ plugins: [jekyll-paginate]
 port: 3000
 safe: true
 
-
 # edit here to achieve your personal greatness
-#url: https://vramiro.github.io
+url: https://vramiro.github.io
 baseurl: /
 title: Victor Ramiro personal webpage
 author: Victor Ramiro
