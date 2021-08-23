@@ -3,15 +3,15 @@ highlighter: rouge
 markdown: kramdown
 rdiscount:
   extensions: [smart]
-permalink: /:title.html
 paginate: 5
 plugins: [jekyll-paginate]
 port: 3000
 safe: true
 
+permalink: date
+
 # edit here to achieve your personal greatness
 url: https://vramiro.github.io
-baseurl: /
 title: Victor Ramiro personal webpage
 author: Victor Ramiro
 description: Personal blog and resume
@@ -23,11 +23,10 @@ linkedin: vramiro
 flickr: https://www.flickr.com/photos/vramiro
 cvurl: https://github.com/vramiro/cv/blob/main/cv-vramiro-en.pdf
 
-#stackoverflow: username   #e.g: users/2735833/proton1h1
-#medium: username #e.g: NobelPeaceOslo
-#Comment out if you don't want disqus
+#stackoverflow: username  
+#medium: username
 #disqus: username
-#google_analytics: UA-69391421-1
+#google_analytics: 
 
 # needed for travis-ci build
 exclude: [vendor]
